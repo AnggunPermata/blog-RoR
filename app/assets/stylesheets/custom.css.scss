@@ -1,0 +1,59 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: #FDF6EA !important;
+}
+
+.nav-link {
+    color: teal !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: teal;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+
+#home-container {
+    margin-top: 25px;
+  }
+  
+
+  .jumbotron {
+    background-image: asset-url('jumbo-img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  #page-content {
+    flex: 1 0 auto;
+    background-color: whitesmoke;
+  }
+  
+  #sticky-footer {
+    flex-shrink: none;
+    background-color: #FDF6EA !important;
+  } 
+
+  #text-footer {
+      color: teal !important;
+  }
+
+  #card-header-footer {
+      background-color: #FDF6EA !important;
+  }
+
+  .text-teal {
+      color: teal !important;
+  }
